@@ -30,7 +30,7 @@ public class PolarSecurityTest
 		String jsonData = "";
 		try {
 	        String line;
-	        br = new BufferedReader(new FileReader("/Users/rongohar/eclipse-workspace/SeleniumFramework/src/test/java/hA_vars.json"));
+	        br = new BufferedReader(new FileReader("/Users/rongohar/git/repository/seleniumGit/SeleniumFramework/src/test/java/hA_vars.json"));
 	        while ((line = br.readLine()) != null) {
 	            jsonData += line + "\n";
 	        }
